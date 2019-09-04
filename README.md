@@ -2,10 +2,8 @@
 Aplikasi Flutter tentang Film Merah Putih yang bertemakan Hari Kemerdekaan Indonesia.
 
 ## Screenshot
-1. Tampilan Awal
-   <img src="screenshot/1.png" >
-2. Tampilan setelah di Scroll
-   <img src="screenshot/2.png" >
+<img src="screenshot/1.png" style="max-width:100%;width: 300px;height: 400px;" >
+<img src="screenshot/2.png" style="max-width:100%;width: 300px;height: 400px;" >
 
 ## Built With
 - [Flutter](https://flutter.dev)
