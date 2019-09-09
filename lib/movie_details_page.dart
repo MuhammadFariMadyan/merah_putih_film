@@ -12,8 +12,8 @@ class MovieDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: new SafeArea(
+      body: new SafeArea(
+        child: SingleChildScrollView(
           child: Column(
             children: [
               MovieDetailHeader(movie),
