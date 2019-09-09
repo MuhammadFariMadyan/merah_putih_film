@@ -13,18 +13,20 @@ class MovieDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            MovieDetailHeader(movie),
-            Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: Storyline(movie.storyline),
-            ),
-            PhotoScroller(movie.photoUrls),
-            SizedBox(height: 20.0),
-            ActorScroller(movie.actors),
-            SizedBox(height: 50.0),
-          ],
+        child: new SafeArea(
+          child: Column(
+            children: [
+              MovieDetailHeader(movie),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Storyline(movie.storyline),
+              ),
+              PhotoScroller(movie.photoUrls),
+              SizedBox(height: 20.0),
+              ActorScroller(movie.actors),
+              SizedBox(height: 50.0),
+            ],
+          ),
         ),
       ),
     );
